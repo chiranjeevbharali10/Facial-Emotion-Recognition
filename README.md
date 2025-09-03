@@ -71,7 +71,7 @@ python test_single_image.py --input_path dark.jpg --output_path enhanced.jpg
 
 ```bash
 cd lowlight_fer_pipeline
-python pipeline.py --input_path lowlight.jpg --output_dir enhanced/
+python pipeline.py --image image_path
 ```
 
 ### 4. Real-Time
