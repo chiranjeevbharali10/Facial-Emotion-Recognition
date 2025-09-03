@@ -1,0 +1,29 @@
+# IEEE Facial Emotion Recognition (Low-Light + RetinexFormer Integration)
+# Core dependencies
+
+# Deep Learning Frameworks
+tensorflow>=2.8.0
+torch>=1.12.0
+torchvision>=0.13.0
+
+# Computer Vision
+opencv-python>=4.5.0
+Pillow>=8.0.0
+
+# Data Processing
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# Image Processing
+albumentations>=1.1.0
+imgaug>=0.4.0
+
+# Utilities
+matplotlib>=3.5.0
+seaborn>=0.11.0
+tqdm>=4.62.0
+
+# Optional: GPU support
+# tensorflow-gpu>=2.8.0  # Uncomment if using GPU
+# torch-cuda>=1.12.0     # Uncomment if using CUDA 
