@@ -153,9 +153,3 @@ This project is licensed under the **MIT License** – see [LICENSE](LICENSE).
 
 ```
 
----
-
-⚡ This version is **short, professional, and GitHub-ready** — no extra clutter, but still covers **features, setup, usage, training, troubleshooting, and references**.  
-
-Do you want me to also **add example result images (before vs after enhancement, emotion prediction screenshots)** in the README to make it visually impressive for GitHub?
-```
