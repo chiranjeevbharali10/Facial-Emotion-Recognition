@@ -15,23 +15,26 @@ This project integrates **RetinexFormer** (for image enhancement) with **ResNet5
 
 ## 📂 Project Structure
 ```
-
-IEEE\_FINAL/
-├── Facial/                 # Emotion Recognition
-│   ├── Final\_h5/           # Pre-trained models
-│   ├── TESTING/            # Testing scripts
-│   └── resnet\_train.py     # Training script
+IEEE_FINAL/
+├── FER/
+|   ├── Faces/            # Emotion Recognition
+│   ├── Final_h5/          # Pre-trained models
+│   ├── TESTING/           # Testing scripts
+|   ├── dataAUG/            
+│   └── resnet_train.py     # Training script
 │
-├── lowlight\_fer\_pipeline/  # Enhancement + Recognition Integration
+├── lowlight_fer_pipeline/  # Enhancement + Recognition Integration
 │   └── pipeline.py
+|   └── Test_image/
 │
-├── RetinexFormer\_plus/     # Low-Light Enhancement
+├── RetinexFormer_plus/     # Low-Light Enhancement
 │   ├── basicsr/
 │   ├── Enhancement/
-│   └── webcam\_retinexformer.py
+│   └── webcam_retinexformer.py
 │
 ├── requirements.txt
 └── README.md
+
 
 ````
 
@@ -152,4 +155,5 @@ This project is licensed under the **MIT License** – see [LICENSE](LICENSE).
 * TensorFlow, PyTorch, and OpenCV communities
 
 ```
+
 
